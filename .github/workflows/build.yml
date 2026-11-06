@@ -17,7 +17,7 @@ jobs:
       - name: Unpack Android project
         run: |
           mkdir -p extracted
-          unzip -q TSD-OZCH-Android-fixed.zip -d extracted
+          unzip -q tsd_android16_ready.zip -d extracted
           cp -a extracted/TSD-OZCH/. .
 
       - name: Set up Java
